@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Asterbox_v0.8.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Asterbox_v0.8 -TC:\CooCox\CoIDE\configuration\ProgramData\Asterbox_v0.8/arm-gcc-link.ld -g">
+      <target file="Asterbox_v0.8.elf" lastModified="15a6fb8669e">
+         <source file="..\obj\Delay_us.o" lastModified="15a6a745aa5"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="15a6a745af4"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="15a6a745b2f"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="15a6a745ba0"/>
+         <source file="..\obj\main.o" lastModified="15a6fad6658"/>
+         <source file="..\obj\UART_Init.o" lastModified="15a6aeee009"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="15a6a745c85"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="15a6ae8ca76"/>
+         <source file="..\obj\ADS1220_SPI_Init.o" lastModified="15a6b40a2d8"/>
+         <source file="..\obj\ADS1220.o" lastModified="15a6fb864b3"/>
+         <source file="..\obj\stm32f10x_spi.o" lastModified="15a6a745e1c"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\Users\HP\ownCloud\009_Aster\Development\Software\Asterbox\Asterbox v0.8 /I..\..\..\..\..\Users\HP\ownCloud\009_Aster\Development\Software\Asterbox\Asterbox v0.8\Asterbox_v0.8\stm_lib\inc /I..\..\..\..\..\Users\HP\ownCloud\009_Aster\Development\Software\Asterbox\Asterbox v0.8\Asterbox_v0.8\cmsis_boot /I..\..\..\..\..\Users\HP\ownCloud\009_Aster\Development\Software\Asterbox\Asterbox v0.8\Asterbox_v0.8 /I..\..\..\..\..\Users\HP\ownCloud\009_Aster\Development\Software\Asterbox\Asterbox v0.8\ADS1220 library /I..\..\..\..\..\Users\HP\ownCloud\009_Aster\Development\Software\Asterbox\Asterbox v0.8\Asterbox_v0.8\cmsis /I..\..\..\..\..\Users\HP\ownCloud\009_Aster\Development\Software\Asterbox\Asterbox v0.8\Asterbox_v0.8\stm_lib /I..\..\..\..\..\Users\HP\ownCloud\009_Aster\Development\Software\Asterbox">
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="15a5b64aac2">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="15a5b649b7a">
+      </source>
+      <source file="..\..\..\stm_lib\src\UART_Init.c" lastModified="15a6aeedd68">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\UART_Init.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="15a5b64a6db">
+      </source>
+      <source file="..\..\..\..\ADS1220 library\Delay_us.h" lastModified="15a60887b28">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_spi.h" lastModified="15a5b64d618">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="15a5b64b32c">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\UART_Init.h" lastModified="15a6ad8472b">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+      </source>
+      <source file="..\..\..\..\ADS1220 library\Delay_us.c" lastModified="15a60888f1c">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\..\ADS1220 library\Delay_us.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="15a5b64b329">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="15a5b64d61b">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="15a5b64a6cc">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="15a5b64978e">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\..\ADS1220 library\ADS1220.h" lastModified="15a653c7258">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="15a5b64a6d0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="15a5b649b77">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="15a6ad5ddd8">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="15a5b64a6de">
+      </source>
+      <source file="..\..\..\main.c" lastModified="15a6f261b7c">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\stm_lib\inc\ADS1220.h"/>
+         <include file="..\..\..\stm_lib\inc\ads1220_SPI_Init.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\UART_Init.h"/>
+      </source>
+      <source file="..\..\..\..\ADS1220 library\ADS1220.c" lastModified="15a6fb861d6">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\..\ADS1220 library\ADS1220.h"/>
+         <include file="..\..\..\..\ADS1220 library\ads1220_SPI_Init.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\..\ADS1220 library\Delay_us.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="15a5b64a6dd">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\ads1220_SPI_Init.h" lastModified="15a655167f4">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+      </source>
+      <source file="..\..\..\..\ADS1220 library\ads1220_SPI_Init.h" lastModified="15a6640227b">
+      </source>
+      <source file="..\..\..\stm_lib\src\ADS1220_SPI_Init.c" lastModified="15a6b3fc5f4">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\ads1220_SPI_Init.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\UART_Init.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_usart.h" lastModified="15a6ad5ddd6">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\ADS1220.h" lastModified="15a653c7258">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="15a5b64a6d6">
+      </source>
+   </includePath>
+</dependencies>
